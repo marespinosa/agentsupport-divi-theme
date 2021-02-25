@@ -1,0 +1,93 @@
+/*--------------------------------------------------------------------------------- Theme Name:   Divi Theme Theme URI:    http://mytransaction.pro/ Description:  Child theme for Divo Author:       Maricon Espinosa Author URI:   https://espinosa-m.online/ Template:     Divi Version:      1.0.0 License:      GNU General Public License v2 or later License URI:  http://www.gnu.org/licenses/gpl-2.0.html------------------------------ ADDITIONAL CSS HERE ------------------------------*/@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+#footer-widgets{display:none;}
+#headerlogo.et_pb_fullwidth_header .et_pb_fullwidth_header_container{width: 100%; max-width: 1260px;}
+#headerlogo.et_pb_fullwidth_header{    padding: 30px 0;}
+#improve .et_pb_slide_description, #improve  .et_pb_slider_fullwidth_off .et_pb_slide_description, #improve  .et_pb_slide{padding: 0 0 !important;}
+#improve  .et_pb_bg_layout_dark .et_pb_slide_description{text-shadow: none;}
+.getpersonalize p, .et_pb_text_inner p{font-family: 'Questrial', sans-serif !important;}
+.et_pb_text_inner{color:#808080!important; line-height: 1.5em !important;}
+.getpersonalize img{display: inline;  padding: 10px; margin-left: auto;  margin-right: auto; width: auto; position: relative; height: 60px !important; margin-top: 5px;}
+.titleh2 h2{    color: #9a2806; font-weight: bold; font-family: 'Sarala', sans-serif; font-size: 2.6rem; line-height: 1.1;}
+.et_pb_text_1 p{line-height: 1.5em !important; font-size: 24px !important; color:#808080!important;}
+.display-7{font-family: 'Questrial',sans-serif !important;}
+.display-1{    font-family: 'Sarala', sans-serif !important;}
+#covidresponse .et_pb_fullwidth_header {padding: 0 !important;}
+#covidresponse .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content{margin: 0 auto; width: 60%;}
+#scheduleadjust .et_pb_module_header{flex: 0 0 80%; max-width: 80%; line-height: 1em;}
+#scheduleadjust.et_pb_fullwidth_header .et_pb_fullwidth_header_container.left .header-content-container{width: 70% !important; margin: 0 auto;}
+#schedulecal.et_pb_section{padding: 0 0 !important;}
+#contactus p{color:#fff !important}
+#contactus h2{line-height:1em !important;}
+.titleheading span{color:#fe7d14 !important; font-weight:bold !important;}
+.featureph p{color:#353535 !important; padding:0 3rem 2rem 3rem !important;}
+.headfeature h4{  color: #9a2806 !important; font-size: 20px !important; font-weight: 100 !important; font-family: 'Sarala', sans-serif !important;}
+.headfeature{  margin-bottom: 0 !important;}
+.whatdo .et_pb_column{padding-left: 16px !important;  padding-right: 16px !important;}
+.whatdo .et_pb_image_wrap  img{-webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+.saveworks .et_pb_main_blurb_image img{width:130px;}
+.saveworks h4{color:#565859 !important; font-family: 'Sarala', sans-serif!important; font-size: 2rem!important; line-height: 1.5 !important; margin-bottom: 0;  padding-bottom: 0;}
+#savehours.et_pb_row{width: 100% !important;  max-width: 1200px !important; }
+.howmuch h2{color:#9a2806 !important; font-weight:bold !important; font-family: 'Sarala', sans-serif; font-size: 2.6rem; line-height: 1.1;}
+.howmuch p{color: #393534; font-size: 1rem; font-family: 'Questrial', sans-serif !important;}
+#howmuchbox{width:48%; float:right;}
+.saveworks{padding-right:30px; padding-left:20px; }
+.contactusfooter a{color:#ff6900 !important}
+.contactusfooter a:hover{color:#993f00 !important}
+.welisten p{font-family: 'Questrial', sans-serif; color:#767676 !important; font-size: 1.2rem; line-height: 1.5;}
+h4.et_pb_module_header{color: #ff6c00;font-family: 'Sarala', sans-serif; font-size: 2rem; line-height: 1.5;}
+h4.et_pb_module_header span:before{border: 2px solid #fe7d14; width: 25%; height:3px; margin:0 auto; position:absolute;}
+.buttonimage{margin: 0 auto !important;}
+.wdcl_image_carousel_0 .slick-slide, .et-db #et-boc .wdcl_image_carousel_0 .slick-slide{ width:150px !important;}
+#haveque{padding-top:6rem; padding-bottom:6rem;}
+.font-Questrial{font-family: 'Questrial', sans-serif !important;}
+.font-sarala{font-family: 'Sarala', sans-serif !important;}
+.buttonleft{border-radius:20px; border:3px solid #ff6900; margin-right: 15px}
+.text-maroon{color: #9a2806;}
+.et_pb_slide_content{text-shadow: none;}
+.testimonialslide .et_pb_slides .et_pb_container{height:320px !important;}
+.testimonialslide .et_pb_slide_description, .testimonialslide .et_pb_slider_fullwidth_off .et_pb_slide_description{padding: 0 8%;}
+.testimonialslide img{min-width: 150px; width: 150px;}
+.testimonialslide .et_pb_bg_layout_dark .et_pb_slide_content{width:80%; margin:0 auto;}
+.et-pb-controllers{display:none;}
+.buttonimage{width:200px;}
+
+
+@media (min-width: 981px){
+	#improve, #succeed{margin-bottom: 20px !important;}
+
+}
+	
+@media (max-width: 980px){
+	#covidresponse .et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content{margin: 0 auto !important; width: 100% !important;}
+	#scheduleadjust .et_pb_module_header{flex: 0 0 100% !important; max-width: 100% !important; line-height: 1em !important;}
+	#covidresponse .et_pb_fullwidth_header .et_pb_fullwidth_header_container{width: 100% !important;}
+	#scheduleadjust.et_pb_fullwidth_header .et_pb_fullwidth_header_container.left .header-content-container {margin: 0 auto !important; width: 100% !important;}
+	.featureph p, .headfeature{ padding:0 !important;}
+	#savehours .saveworks{padding-right: 0;}
+	#howmuchbox{width:100%; float:none;}
+	.testimonialslide img{min-width: 117px; width: 117px;}
+}
+
+@media (max-width: 920px){
+	h4.et_pb_module_header{line-height: 2.5;}
+}
+
+
+@media (max-width: 590px){
+	.buttonimage{width:200px;}
+	.buttonleft{    margin-right: 20px; width: 40%}
+	h4.et_pb_module_header{line-height: 1.5;}
+}
+
+
+@media (max-width: 390px){
+	#SOIDIV_infoagentsupportteam iframe{min-width:215px !important;}
+	.contacfoot{font-size:16px !important;}
+	.et_pb_cta_1.et_pb_promo .et_pb_promo_description div{font-size: 1rem !important; line-height: 1.5em !important;}
+	.saveworks h4{font-size: 1.5rem!important;}
+	.saveworks{width:80% !important; margin:0 auto; padding-right:0 !important;  padding-left:0 !important;  }
+	.howmuch h2{font-size: 1.5rem !important;}
+	.howmuch p{font-size: .8rem !important;}
+}
